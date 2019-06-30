@@ -14,4 +14,4 @@ Im inneren meines Radios sind folgendes verbaut: TAS5614LA - power amplifier (AP
 
 Für die Ansteuerung wird ein Webserver mit php benötigt, auf dem das Projekt liegt.
 
-
+<img src="https://raw.githubusercontent.com/polygontwist/radio/master/screenshot.png" width="400" alt="Screenshot Übersicht">
