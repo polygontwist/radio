@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Majority Radio</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />	
+	<link rel="stylesheet" href="style.css" />
+	<script src="mradio.js"></script>
+	
+	<meta name="theme-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="black-translucent">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!--<link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">-->
+</head>
+<body>
+<h1>Majority Radio</h1>
+<p><label for="volume">Lautstärke <span data-mradio="show:vol">-</span></label><input name="volume" id="volume" type="range" min="0" max="100" data-mradio="vol"></p>
+<p><label>Mute</label> <input type="checkbox" id="mute" data-mradio="mute" class="switchmute"> <label for="mute"></label></p>
+<p>
+	<button data-mradio="pause">Pause</button>
+	<button data-mradio="stop">Stopp</button>
+	<button data-mradio="resume">Resume</button>
+</p>
+
+<p class="buttonleiste">
+	<button data-mradio="switchmode:line-in">DAB</button>
+	<button data-mradio="playlist:http://tuner.m1.fm/80er.mp3:1">m1.fm/80er</button>
+	<button data-mradio="playlist:http://stream.lohro.de:8000/lohro.mp3:1">lohro</button>
+	<button data-mradio="playlist:https://dg-rbb-https-dus-dtag-cdn.sslcast.addradio.de/rbb/fritz/live/mp3/128/stream.mp3:1">Fritz</button>
+	<button data-mradio="playlist:http://dg-wdr-http-dus-dtag-cdn.cast.addradio.de/wdr/1live/live/mp3/128/stream.mp3?ar-distributor=f0a0:1">1live</button>
+	
+</p>
+	<div id="playerstatus"><div id="playerstatusbalken" data-mradio="playoffset"></div><div class="seeker" data-mradio="seeker"></div></div>
+
+<p>
+	<input type="text" id="i1" style="width:calc(100% - 100px)" value="https://minkorrekt.de/podlove/file/3041/s/download/c/select-show/methodisch_inkorrekt_Folge_145.mp3"></input>
+	<button data-mradio="playlist:#i1:1">play</button>	
+	
+</p>
+<p>
+
+	<button data-mradio="playlist:http://192.168.0.29/musik/Tontraeger/004_Tontraeger-Brueste.mp3:1">Tontraeger</button>	
+	<button data-mradio="playlist:http://192.168.0.29/musik/amazon/257ers/Boomshakkalakka/01-02-Vergleiche_a_la_Boss.mp3:1">257ers</button>	
+	<button data-mradio="playlist:http://192.168.0.29/musik/amazon/stilbruch/01%20Alles%20kann%20passieren.mp3:1">stilbruch</button>	
+
+	
+</p>
+
+</body>
