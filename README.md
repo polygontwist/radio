@@ -8,7 +8,7 @@ Ansteuerung eines Newton Radio von Majority mit WLan, DAB+ & FM Radio, Bluetooth
 
 # interna
 
-Im inneren meines Radios sind folgendes verbaut: TAS5614LA - power amplifier (AP8048B ARM), Linkplay A31 V04 - Wireless Smart Audio Module (CX20921-21Z).
+Im inneren meines Radios ist folgendes verbaut: TAS5614LA - power amplifier (AP8048B ARM), Linkplay A31 V04 - Wireless Smart Audio Module (CX20921-21Z).
 
 # setup
 
