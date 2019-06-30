@@ -1,4 +1,4 @@
-# radio
+# Radio Ansteuerung
 Ansteuerung eines Newton Radio von Majority mit WLan, DAB+ & FM Radio, Bluetooth  & Alexa.
 
 # Quellen
